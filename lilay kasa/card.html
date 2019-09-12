@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Lilay kasa </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.card {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 1px solid black
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Lilay Kasa Profile Card</h2>
+
+<div class="card">
+	<!--<a target="_blank" href="image/pet1.jpg"> -->
+  <img src="image/cv.png" alt="Peter" style="width:100%">
+  <div class="container">
+    <h1> <abbr title="Engineer">En. </abbr>Lilay Kasa</h1>
+    <h3 class="title">CEO & Founder of LK Factory</h3>
+    <h3 class="title">Owner of LK Hotel</h3>
+
+      <button> <a href="lkfactory.html"> Contact </a></button>
+  </div>
+</div>
+
+</body>
+</html>
